@@ -11,8 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/section-title.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
+
+    <script src="https://kit.fontawesome.com/6cc8a6f404.js" crossorigin="anonymous"></script>
     <title>Portfólio - Paula Blesa</title>
 </head>
 
@@ -52,13 +57,127 @@
 
         <section class="sobre-mim" id="sobre-mim">
             <h2 class="section-title">Sobre Mim</h2>
-            <div class="description"></div>
-            <div class="skills"></div>
+            <div class="description">
+                <h3 class="description__title">Quem sou?</h3>
+                <p class="description__text">Sou iniciante na área de criação e manutenção de sites, tenho conhecimento em prototipação e designer sempre pensando na experiência do usuário. Sou apaixonado pelo mundo digital e principalmente desenvolvimento, sempre procurando inspiração
+                    nos meus colegas de trablaho e no mundo que me rodeia.
+                </p>
+            </div>
+            <div class="skills">
+                <h3 class="skills__title">Skills:</h3>
+                <ul class="skills__container">
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-square-js"></i>
+                        <span>JS</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-figma"></i>
+                        <span>FIGMA</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GIT</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-java"></i>
+                        <span>JAVA</span>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contato"></section>
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="https://staniukaitispaula.github.io/headphone-purple/" class="card">
+                    <img src="./img/Rectangle 1.png" target="_blank" alt="headphone">
+                </a>
+                <a href="https://staniukaitispaula.github.io/landing-page-pikachu/" target="_blank" class="card">
+                    <img src="./img/Rectangle 2.png" alt="Pikachu">
+                </a>
+                <a href="https://staniukaitispaula.github.io/landing-page-apex/" target="_blank" class="card">
+                    <img src="./img/Rectangle 3.png" alt="apex">
+                </a>
+                <a href="https://staniukaitispaula.github.io/headphone-purple/" target="_blank" class="card">
+                    <img src="./img/Rectangle 1.png" alt="headphone">
+                </a>
+                <a href="https://staniukaitispaula.github.io/landing-page-pikachu/" target="_blank" class="card">
+                    <img src="./img/Rectangle 2.png" alt="Pikachu">
+                </a>
+                <a href="https://staniukaitispaula.github.io/landing-page-apex/" target="_blank" class="card">
+                    <img src="./img/Rectangle 3.png" alt="apex">
+                </a>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3>Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-phone-alt contato-item__icon"></i>
+                        <span class="contato-item__text">(11)4774-4700</span>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope contato-item__icon"></i>
+                        <span class="contato-item__text">Paulablesa6@gmail.com</span>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fab fa-whatsapp contato-item__icon"></i>
+                        <span class="contato-item__text">(11)9 6982-8192</span>
+
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li class="social">
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li class="social">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="social">
+                    <i class="fab fa-youtube"></i>
+                </li>
+                <li class="social">
+                    <i class="fab fa-linkedin"></i>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3>links</h3>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contatos">Contatos</a>
+                </li>
+            </ul>
+        </section>
     </main>
-    <footer> footer </footer>
+    <footer>todos os direitos reservados 2022/ Desenvolvido por Paula Blesa </footer>
 </body>
 
 </html>
