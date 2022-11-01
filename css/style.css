@@ -48,3 +48,7 @@ footer {
     border-top: 2px solid #ffffff;
     font-size: .75rem;
 }
+
+.menuzinho {
+    display: none;
+}

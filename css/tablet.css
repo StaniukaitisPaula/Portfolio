@@ -1,0 +1,68 @@
+@media(max-width:960px) {
+    nav {
+        display: none;
+    }
+    .menuzinho {
+        display: block;
+        font-size: 40px;
+        width: 100px;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .profile__foto {
+        flex-direction: center;
+    }
+    .profile__text {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .profile__name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre-mim {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-title {
+        display: grid;
+        align-items: center;
+        font-size: 140px;
+    }
+    .description__title {
+        display: flex;
+        align-self: center;
+        font-size: 3rem;
+    }
+    .description__text {
+        display: flex;
+        font-size: 24px;
+        flex-direction: column;
+        align-self: center;
+    }
+    .skills {
+        padding: 50px;
+    }
+    .skills__title {
+        display: grid;
+        align-self: center;
+        font-size: 3rem;
+    }
+    .skills__container {
+        gap: 100px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .projetos {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        height: 110rem;
+    }
+}
