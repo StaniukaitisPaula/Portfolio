@@ -63,6 +63,12 @@
         padding: 50px;
         display: flex;
         justify-content: center;
-        height: 110rem;
+        height: 75rem;
+    }
+    .contato-container {
+        height: 30rem;
+    }
+    .link-container {
+        height: 32rem;
     }
 }
